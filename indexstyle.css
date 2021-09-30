@@ -72,3 +72,21 @@ body{
     transform: translate(-22px,5px) skew(21deg); 
   }
 }
+
+@media (max-width: 991px){
+  body{
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 765px){
+  body{
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 500px){
+  body{
+    font-size: 39px;
+  }
+}
