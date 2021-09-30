@@ -15,7 +15,7 @@ html{
     width: 523px;
 	background-position: 25% 50%;
 	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 5s ease infinite;
+	animation: Gradient 5s ease infinite;
 }
 .inner-cutout{
 	padding: 40px 0;
@@ -39,8 +39,8 @@ html{
 	color: blue;
 	color: #fff;
 	background: linear-gradient(110deg, #ffeead 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(110deg, #C5E7D7 34%, #88d8b0 34%);
-	 -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 .knockout{
 		animation: Gradient 5s ease infinite;
@@ -48,7 +48,7 @@ html{
 		-moz-animation: Gradient 5s ease infinite;
 }
 
-@-webkit-keyframes Gradient {
+@keyframes Gradient {
 	0% {
 		background-position: 30% 50%
 	}
